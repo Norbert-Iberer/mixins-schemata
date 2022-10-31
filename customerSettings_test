@@ -12,9 +12,6 @@
         "mail": {
           "type": "string"
         },
-        "accountOwner": {
-          "type": "string"
-        },
         "phone": {
           "type": "string"
         },
