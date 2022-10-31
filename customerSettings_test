@@ -1,0 +1,29 @@
+{
+  "name": "customerSettings",
+  "description": "Mixin schema for site-specific customer settings.",
+  "properties": {
+    "regExSettings": {
+      "type": "object",
+      "description": "Regular expressions for input validation.",
+      "properties": {
+        "bic": {
+          "type": "string"
+        },
+        "mail": {
+          "type": "string"
+        },
+        "accountOwner": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema#"
+}
