@@ -1,5 +1,5 @@
 {
-  "name": "customerSettings",
+  "name": "customerSettings_test",
   "description": "Mixin schema for site-specific customer settings.",
   "properties": {
     "regExSettings": {
