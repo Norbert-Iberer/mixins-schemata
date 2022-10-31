@@ -1,0 +1,14 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+
+	"title": "customProductAttributesMixin",
+	"description": "Schema for a mixin with custom product attributes used by the process of creating a product.",
+	
+	"type": "object",
+	"properties": {
+		"asset_id": {
+			"description": "The asset-id for the media files in Amplience.",
+			"type": "string"
+		}	
+	}
+}
