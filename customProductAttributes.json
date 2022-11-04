@@ -6,9 +6,12 @@
 	
 	"type": "object",
 	"properties": {
-		"asset_id": {
-			"description": "The asset-id for the media files in Amplience.",
-			"type": "string"
+		"assetIDs": {			
+			"type": ["array", "null"],
+      			"items": {
+        			"type": "string"
+      			},
+			"description": "Array with the asset-IDs for the media files in Amplience."
 		}	
 	}
 }
